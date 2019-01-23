@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "6e9792469c6fb2333ec789c77ff18917",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -548,6 +548,43 @@
                 "url"
             ],
             "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "iisustudio/hello-world",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iisuStudio/composer-hello-world-package.git",
+                "reference": "fbd8c8d1e0de69c90b9454957c0ce58bb444a2c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iisuStudio/composer-hello-world-package/zipball/fbd8c8d1e0de69c90b9454957c0ce58bb444a2c9",
+                "reference": "fbd8c8d1e0de69c90b9454957c0ce58bb444a2c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iisustudio\\": "src",
+                    "Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iisu",
+                    "email": "scaix08121@outlook.com"
+                }
+            ],
+            "description": "This is a test to upload a package to website.",
+            "time": "2019-01-23T07:47:56+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
